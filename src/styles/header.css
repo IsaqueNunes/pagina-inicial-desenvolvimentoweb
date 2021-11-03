@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3em;
+    flex-grow: 2;
+    background-color: beige;
+    border-width: 3em;
+}
+
+#banner-site-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 25%;
+}
+
+#site-logo {
+    background-color: green;
+    width: 210px;
+    height: 90px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-site {
+    /* background-color: aqua; */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#header-title {
+    font-size: 50px;
+}
+
+#header-description {
+    font-size: 25px;
+}
+
+#projects-link-button {
+    text-decoration: none;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#projects-link-button:hover {
+    background-color: #2a5253;
+}
+
+#projects-link-button:active {
+    color: white;
+}
+
+#banner-image {
+    max-width: 60%;
+    border-radius: 5px;
+}
