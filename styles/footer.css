@@ -1,0 +1,41 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  background-color: aliceblue;
+}
+
+footer li {
+  list-style: none;
+}
+
+#logo-ifms-unfinished {
+  width: 40px;
+}
+
+.footer-links {
+  text-decoration: none;
+}
+
+.footer-links:hover {
+  color: aqua;
+}
+
+.footer-section-titles {
+  font-size: 18px;
+}
+
+.footer-subsection-titles {
+  font-size: 12px;
+}
+
+footer section li {
+  font-size: 10px;
+}
+
+#site-logo-mini {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+}
